@@ -107,7 +107,7 @@ code segment
     print welcome
     newline
     
-    mov cl, len ; number of tries
+    mov cl, 06h ; number of tries
     mov ch, 00h
     lea bx, hg  ; address of hangman
     game: 
